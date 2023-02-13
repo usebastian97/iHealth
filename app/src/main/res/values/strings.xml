@@ -4,4 +4,14 @@
     <string name="title_dashboard">Sectiuni</string>
     <string name="covid">Covid-19</string>
     <string name="tracing">Tracing</string>
+    <string name="profile">Profilul meu</string>
+    <string name="bmi">BMI</string>
+    <string name="note">Notite</string>
+    <string name="certificat">Certificat COVID-19</string>
+    <string name="suport">Suport Tehnic</string>
+    <string name="setari">Setari</string>
+    <string name="logout">Iesire din cont</string>
+    <string name="welcome">Bine ai venit</string>
+    <string name="description_home_frag">Ținta ta pentru astăzi este să  păstrezi o mentalitate pozitivă.</string>
+    <string name="alege_specialitate">Alege o specialitate, si ramai informat</string>
 </resources>
