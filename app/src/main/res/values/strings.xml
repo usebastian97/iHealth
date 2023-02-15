@@ -14,4 +14,8 @@
     <string name="welcome">Bine ai venit</string>
     <string name="description_home_frag">Ținta ta pentru astăzi este să  păstrezi o mentalitate pozitivă.</string>
     <string name="alege_specialitate">Alege o specialitate, si ramai informat</string>
+    <string name="categori">Vezi toate categoriile</string>
+    <string name="mai_multe">Mai multe detalii</string>
+    <string name="asistent">Asistent Virtual</string>
+    <string name="asistent_description">Afla rapid posibilele cauze ale simptomelor tale.</string>
 </resources>
