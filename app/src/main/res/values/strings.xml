@@ -18,4 +18,18 @@
     <string name="mai_multe">Mai multe detalii</string>
     <string name="asistent">Asistent Virtual</string>
     <string name="asistent_description">Afla rapid posibilele cauze ale simptomelor tale.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Array of categories from Home -->
+
+    <string name="andrologie">ANDROLOGIE</string>
+    <string name="boli_infectioase">BOLI INFECTIOASE</string>
+    <string name="cardolgie">CARDOLOGIE</string>
+    <string name="chirurgie_crdv">CHIRURGIE CARDIOVASCULARA</string>
+    <string name="dermato">DERMATOVENOROLOGIE</string>
+    <string name="diabet">DIABET ZAHARAT, NUTRITIE SI BOLI METABOLICE</string>
+    <string name="ecografie">ECOGRAFIE</string>
+    <string name="endocrinologie">ENDOCRINOLOGIE</string>
+    <string name="epidemiologie">EPIDEMIOLOGIE</string>
 </resources>
