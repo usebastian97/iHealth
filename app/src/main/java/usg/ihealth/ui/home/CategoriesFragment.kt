@@ -2,16 +2,13 @@ package usg.ihealth.ui.home
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import usg.ihealth.R
 import usg.ihealth.databinding.FragmentCategoriesBinding
-import usg.ihealth.databinding.FragmentHomeBinding
-import usg.ihealth.ui.dashboard.adapter.DashboardAdapter
 
 
 class CategoriesFragment : Fragment() {

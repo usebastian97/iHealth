@@ -3,18 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
-
-    <fragment
-        android:id="@+id/navigation_home"
-        android:name="usg.ihealth.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" >
-        <action
-            android:id="@+id/action_navigation_home_to_categoriesFragment"
-            app:destination="@id/categoriesFragment"
-            app:popUpTo="@anim/nav_default_pop_enter_anim"/>
-    </fragment>
+    app:startDestination="@+id/navigation_dashboard">
 
     <fragment
         android:id="@+id/navigation_covid"
@@ -31,13 +20,12 @@
     <fragment
         android:id="@+id/navigation_dashboard"
         android:name="usg.ihealth.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
+        android:label="@string/title_home"
         tools:layout="@layout/fragment_dashboard" />
     <fragment
         android:id="@+id/categoriesFragment"
         android:name="usg.ihealth.ui.home.CategoriesFragment"
         android:label="Categorii"
-        tools:layout="@layout/fragment_categories" >
-    </fragment>
+        tools:layout="@layout/fragment_categories"/>
 
 </navigation>
