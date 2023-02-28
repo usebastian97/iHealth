@@ -4,11 +4,10 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.databinding.DataBindingUtil
+import android.widget.AdapterView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import usg.ihealth.R
-import usg.ihealth.databinding.DashboardSectionsBinding
 import usg.ihealth.databinding.FragmentDashboardBinding
 import usg.ihealth.ui.dashboard.adapter.DashboardAdapter
 
@@ -64,8 +63,49 @@ class DashboardFragment : Fragment() {
         )
         dashboardAdapter = DashboardAdapter(dashboardList, requireContext())
         binding.dashboardGridView.adapter = dashboardAdapter
+        binding.dashboardGridView.onItemClickListener =
+            AdapterView.OnItemClickListener { _, _, position, _ ->
+                when (dashboardAdapter.getItem(position).title) {
 
+                    cardProfile.title -> navigateToProfile()
+                    cardBMI.title -> navigateToBmi()
+                    cardCertificate.title -> navigateToCertificate()
+                    cardNote.title -> navigateToNote()
+                    cardSupport.title -> navigateToSupport()
+                    cardSettings.title -> navigateToSettings()
+                    cardLogout.title -> navigateToLogout()
+                }
+
+            }
         dashboardAdapter.notifyDataSetChanged()
+    }
+
+    private fun navigateToLogout() {
+        TODO("Not yet implemented")
+    }
+
+    private fun navigateToSettings() {
+        TODO("Not yet implemented")
+    }
+
+    private fun navigateToSupport() {
+        TODO("Not yet implemented")
+    }
+
+    private fun navigateToNote() {
+        TODO("Not yet implemented")
+    }
+
+    private fun navigateToCertificate() {
+        TODO("Not yet implemented")
+    }
+
+    private fun navigateToBmi() {
+        TODO("Not yet implemented")
+    }
+
+    private fun navigateToProfile() {
+        TODO("Not yet implemented")
     }
 
     override fun onDestroyView() {
