@@ -1,4 +1,4 @@
-package usg.ihealth.ui.home
+package usg.ihealth.ui.fragments
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import usg.ihealth.R
 import usg.ihealth.databinding.FragmentCategoriesBinding
+import usg.ihealth.ui.adapters.CategoriesAdapter
 
 
 class CategoriesFragment : Fragment() {

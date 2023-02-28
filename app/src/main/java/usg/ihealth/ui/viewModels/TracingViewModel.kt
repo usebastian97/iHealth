@@ -1,4 +1,4 @@
-package usg.ihealth.ui.tracing
+package usg.ihealth.ui.viewModels
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

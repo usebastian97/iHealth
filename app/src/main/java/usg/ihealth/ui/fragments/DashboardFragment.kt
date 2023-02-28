@@ -1,4 +1,4 @@
-package usg.ihealth.ui.dashboard
+package usg.ihealth.ui.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,7 +9,8 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import usg.ihealth.R
 import usg.ihealth.databinding.FragmentDashboardBinding
-import usg.ihealth.ui.dashboard.adapter.DashboardAdapter
+import usg.ihealth.ui.viewModels.DashboardViewModel
+import usg.ihealth.ui.adapters.DashboardAdapter
 
 class DashboardFragment : Fragment() {
 

@@ -1,4 +1,4 @@
-package usg.ihealth.ui.dashboard.adapter
+package usg.ihealth.ui.adapters
 
 import android.annotation.SuppressLint
 import android.content.Context

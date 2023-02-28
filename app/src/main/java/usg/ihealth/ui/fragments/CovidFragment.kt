@@ -1,4 +1,4 @@
-package usg.ihealth.ui.covid
+package usg.ihealth.ui.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,6 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import usg.ihealth.databinding.FragmentCovidBinding
+import usg.ihealth.ui.viewModels.CovidViewModel
 
 class CovidFragment : Fragment() {
 
