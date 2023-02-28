@@ -7,10 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import usg.ihealth.R
-import usg.ihealth.databinding.FragmentHomeBinding
 import usg.ihealth.databinding.FragmentTracingBinding
-import usg.ihealth.ui.home.HomeViewModel
 
 class TracingFragment : Fragment() {
 

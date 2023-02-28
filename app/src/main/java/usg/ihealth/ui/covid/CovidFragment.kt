@@ -8,7 +8,6 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import usg.ihealth.databinding.FragmentCovidBinding
-import usg.ihealth.ui.home.HomeViewModel
 
 class CovidFragment : Fragment() {
 
