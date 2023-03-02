@@ -1,4 +1,4 @@
-package usg.ihealth.ui.home
+package usg.ihealth.ui.adapters
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -26,13 +26,13 @@ class CategoriesAdapter(
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
-    ): CategoriesAdapter.ViewHolder {
+    ): ViewHolder {
         val itemView =
             LayoutInflater.from(parent.context).inflate(R.layout.categories_items, parent, false)
         return ViewHolder(itemView)
     }
 
-    override fun onBindViewHolder(holder: CategoriesAdapter.ViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val itemCategories = categoriesList[position]
         holder.imageView.setImageResource(itemCategories.img)
         holder.textView.text = itemCategories.title

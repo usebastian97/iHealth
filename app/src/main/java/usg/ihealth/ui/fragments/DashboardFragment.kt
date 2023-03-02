@@ -1,4 +1,4 @@
-package usg.ihealth.ui.dashboard
+package usg.ihealth.ui.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,9 +7,11 @@ import android.view.ViewGroup
 import android.widget.AdapterView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
 import usg.ihealth.R
 import usg.ihealth.databinding.FragmentDashboardBinding
-import usg.ihealth.ui.dashboard.adapter.DashboardAdapter
+import usg.ihealth.ui.viewModels.DashboardViewModel
+import usg.ihealth.ui.adapters.DashboardAdapter
 
 class DashboardFragment : Fragment() {
 
@@ -105,7 +107,9 @@ class DashboardFragment : Fragment() {
     }
 
     private fun navigateToProfile() {
-        TODO("Not yet implemented")
+        val action =
+            DashboardFragmentDirections.navigationDashboardToProfile()
+        findNavController().navigate(action)
     }
 
     override fun onDestroyView() {

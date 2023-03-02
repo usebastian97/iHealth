@@ -7,25 +7,41 @@
 
     <fragment
         android:id="@+id/navigation_covid"
-        android:name="usg.ihealth.ui.covid.CovidFragment"
+        android:name="usg.ihealth.ui.fragments.CovidFragment"
         android:label="@string/covid"
         tools:layout="@layout/fragment_covid" />
 
     <fragment
         android:id="@+id/navigation_tracing"
-        android:name="usg.ihealth.ui.tracing.TracingFragment"
+        android:name="usg.ihealth.ui.fragments.TracingFragment"
         android:label="@string/tracing"
         tools:layout="@layout/fragment_tracing" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="usg.ihealth.ui.dashboard.DashboardFragment"
+        android:name="usg.ihealth.ui.fragments.DashboardFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_dashboard" >
+
+        <action
+            android:id="@+id/navigation_dashboard_to_profile"
+            app:destination="@id/profileFragment"
+            app:popUpToInclusive="true">
+
+        </action>
+
+
+    </fragment>
     <fragment
         android:id="@+id/categoriesFragment"
-        android:name="usg.ihealth.ui.home.CategoriesFragment"
+        android:name="usg.ihealth.ui.fragments.CategoriesFragment"
         android:label="Categorii"
         tools:layout="@layout/fragment_categories"/>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="usg.ihealth.ui.fragments.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile"/>
 
 </navigation>
