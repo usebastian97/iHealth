@@ -23,6 +23,12 @@
         android:label="@string/title_home"
         tools:layout="@layout/fragment_dashboard" >
 
+        <action
+            android:id="@+id/navigation_dashboard_to_profile"
+            app:destination="@id/profileFragment"
+            app:popUpToInclusive="true">
+
+        </action>
 
 
     </fragment>
@@ -31,5 +37,11 @@
         android:name="usg.ihealth.ui.fragments.CategoriesFragment"
         android:label="Categorii"
         tools:layout="@layout/fragment_categories"/>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="usg.ihealth.ui.fragments.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile"/>
 
 </navigation>
