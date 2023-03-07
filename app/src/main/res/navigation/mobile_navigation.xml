@@ -21,7 +21,7 @@
         android:id="@+id/navigation_dashboard"
         android:name="usg.ihealth.ui.fragments.DashboardFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_dashboard" >
+        tools:layout="@layout/fragment_dashboard">
 
         <action
             android:id="@+id/navigation_dashboard_to_profile"
@@ -30,18 +30,42 @@
 
         </action>
 
+        <action
+            android:id="@+id/navigation_dashboard_to_settings"
+            app:destination="@id/settingsFragment"
+            app:popUpTo="@id/navigation_dashboard">
+
+        </action>
+
+        <action
+            android:id="@+id/nav_to_certificate"
+            app:destination="@id/certificateFragment">
+
+        </action>
 
     </fragment>
+
     <fragment
         android:id="@+id/categoriesFragment"
         android:name="usg.ihealth.ui.fragments.CategoriesFragment"
         android:label="Categorii"
-        tools:layout="@layout/fragment_categories"/>
+        tools:layout="@layout/fragment_categories" />
 
     <fragment
         android:id="@+id/profileFragment"
         android:name="usg.ihealth.ui.fragments.ProfileFragment"
         android:label="Profile"
-        tools:layout="@layout/fragment_profile"/>
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="usg.ihealth.ui.fragments.SettingsFragment"
+        android:label="Setari"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/certificateFragment"
+        android:name="usg.ihealth.CertificateFragment"
+        android:label="Certificat COVID-19"
+        tools:layout="@layout/fragment_certificate" />
 
 </navigation>
