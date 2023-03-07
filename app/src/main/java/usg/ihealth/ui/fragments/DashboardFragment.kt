@@ -87,7 +87,10 @@ class DashboardFragment : Fragment() {
     }
 
     private fun navigateToSettings() {
-        TODO("Not yet implemented")
+
+        val action =
+            DashboardFragmentDirections.navigationDashboardToSettings()
+        findNavController().navigate(action)
     }
 
     private fun navigateToSupport() {
@@ -99,7 +102,9 @@ class DashboardFragment : Fragment() {
     }
 
     private fun navigateToCertificate() {
-        TODO("Not yet implemented")
+        val action =
+            DashboardFragmentDirections.navToCertificate()
+        findNavController().navigate(action)
     }
 
     private fun navigateToBmi() {
@@ -112,7 +117,4 @@ class DashboardFragment : Fragment() {
         findNavController().navigate(action)
     }
 
-    override fun onDestroyView() {
-        super.onDestroyView()
-    }
 }
