@@ -43,6 +43,13 @@
 
         </action>
 
+        <action
+            android:id="@+id/navigation_to_bmi"
+            app:destination="@+id/bmiFragment"
+            app:popUpToInclusive="true">
+
+        </action>
+
     </fragment>
 
     <fragment
@@ -64,8 +71,16 @@
         tools:layout="@layout/fragment_settings" />
     <fragment
         android:id="@+id/certificateFragment"
-        android:name="usg.ihealth.CertificateFragment"
+        android:name="usg.ihealth.ui.fragments.CertificateFragment"
         android:label="Certificat COVID-19"
         tools:layout="@layout/fragment_certificate" />
+
+    <fragment
+        android:id="@+id/bmiFragment"
+        android:name="usg.ihealth.ui.fragments.BmiFragment"
+        android:label="@string/bmi"
+        tools:layout="@layout/fragment_bmi" >
+
+    </fragment>
 
 </navigation>

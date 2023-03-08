@@ -11,8 +11,6 @@ A
 gradle.properties,2\a\2afbb999f001938c88fa43fc2ef52abf0f8213e4
 X
 (gradle/wrapper/gradle-wrapper.properties,f\b\fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
-]
--app/src/main/java/usg/ihealth/MainActivity.kt,3\2\32fbcf05f3c5201d8dc5b74ecd28e317239e762a
 P
  app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
 a
