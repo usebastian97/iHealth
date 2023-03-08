@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_and_preferences"><![CDATA[Setari & Preferinte]]></string>
+    <string name="notificari">Notificari</string>
+    <string name="languages">Limba</string>
+    <string name="security">Securitate</string>
+    <string name="dark_mode">Tema intunecata</string>
+    <string name="help_center">Centrul de ajutor</string>
+    <string name="raport_bug">Raportare probleme</string>
+</resources>

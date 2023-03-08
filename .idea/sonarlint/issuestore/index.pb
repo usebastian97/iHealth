@@ -1,0 +1,27 @@
+
+p
+@app/src/main/java/usg/ihealth/ui/fragments/CategoriesFragment.kt,9\2\9297c5f4266aa0393a3f026b4d224e41c87e6fed
+k
+;app/src/main/java/usg/ihealth/ui/fragments/CovidFragment.kt,8\d\8d14b1a34d3397c34bfaa9ccce78ca2a8ae738a7
+m
+=app/src/main/java/usg/ihealth/ui/fragments/TracingFragment.kt,9\7\97ca4ec3f47a37057e0c39a577746c796351e806
+o
+?app/src/main/java/usg/ihealth/ui/viewModels/TracingViewModel.kt,3\d\3d27eee23cee53df30af3d615ed40054e64c0db1
+A
+gradle.properties,2\a\2afbb999f001938c88fa43fc2ef52abf0f8213e4
+X
+(gradle/wrapper/gradle-wrapper.properties,f\b\fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
+]
+-app/src/main/java/usg/ihealth/MainActivity.kt,3\2\32fbcf05f3c5201d8dc5b74ecd28e317239e762a
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+a
+1app/src/main/java/usg/ihealth/ui/compose/Shape.kt,5\e\5e6d9bced882791fc11d93a15247688f6b598968
+a
+1app/src/main/java/usg/ihealth/ui/compose/Theme.kt,2\0\208824b53800a01faf282e0d6465bf1eed9b75e9
+`
+0app/src/main/java/usg/ihealth/ui/compose/Type.kt,2\0\20ff1479e29ccf74d3980e7cb5a029c3cdd57929
+o
+?app/src/main/java/usg/ihealth/ui/viewModels/ProfileViewModel.kt,e\9\e9fed73bd22cbf75afd09e23cf86fd53305e574e
+m
+=app/src/main/java/usg/ihealth/ui/fragments/ProfileFragment.kt,7\d\7de2867ed062c1a7a5fd2d43c11a31565f9b44db
