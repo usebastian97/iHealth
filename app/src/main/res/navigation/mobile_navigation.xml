@@ -79,6 +79,7 @@
         android:id="@+id/bmiFragment"
         android:name="usg.ihealth.ui.fragments.bmi.BmiFragment"
         android:label="@string/bmi"
+        android:fitsSystemWindows="true"
         tools:layout="@layout/fragment_bmi">
 
         <action
