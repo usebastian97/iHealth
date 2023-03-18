@@ -159,7 +159,3 @@ G.idea/sonarlint/issuestore/7/3/73813af128116aec882b04c078db2920903435ae,1\5\15
 Q.idea/sonarlint/securityhotspotstore/7/3/73813af128116aec882b04c078db2920903435ae,2\6\26ffe8a4aef9fb4bc464d20227074f37c71f5c76
 w
 G.idea/sonarlint/issuestore/d/d/dd3ed059624f4cf27398b5980bac4de9cb1ab49c,d\2\d2a9d736962d75f40d4da04014b9a3106cfbeda5
-p
-@app/src/main/java/usg/ihealth/ui/fragments/bmi/ResultFragment.kt,7\4\745745eb2942e71c0fb86d009574c51fe26c59df
-_
-/app/src/main/java/usg/ihealth/ui/utils/Utils.kt,7\8\78d02040e1a2f58947aacddce70c87e01ef4c06d

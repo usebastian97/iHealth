@@ -75,5 +75,8 @@
     <string name="age_zero">Varsta nu poate fi mai mica de 1</string>
     <string name="weight_zero">Greutatea nu poate fi mai mica de 1</string>
     <string name="weight_300">Greutatea nu poate fi mai mare de 300</string>
-
+    <string name="teenage">Teenage</string>
+    <string name="adult">Adult</string>
+    <string name="under_18">A BMI of under 18.5 indicates that a person has insufficient weight, so they may need to put on some weight. They should ask a doctor or dietitian for advice.</string>
+    <string name="under_24">A BMI of 18.5–24.9 indicates that a person has a healthy weight for their height. By maintaining a healthy weight, they can lower their risk of developing serious health problems.</string>
 </resources>
