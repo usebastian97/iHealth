@@ -10,8 +10,8 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import usg.ihealth.R
 import usg.ihealth.databinding.FragmentDashboardBinding
-import usg.ihealth.ui.viewModels.DashboardViewModel
 import usg.ihealth.ui.adapters.DashboardAdapter
+import usg.ihealth.ui.viewModels.DashboardViewModel
 
 class DashboardFragment : Fragment() {
 
@@ -87,7 +87,10 @@ class DashboardFragment : Fragment() {
     }
 
     private fun navigateToSettings() {
-        TODO("Not yet implemented")
+
+        val action =
+            DashboardFragmentDirections.navigationDashboardToSettings()
+        findNavController().navigate(action)
     }
 
     private fun navigateToSupport() {
@@ -99,11 +102,15 @@ class DashboardFragment : Fragment() {
     }
 
     private fun navigateToCertificate() {
-        TODO("Not yet implemented")
+        val action =
+            DashboardFragmentDirections.navToCertificate()
+        findNavController().navigate(action)
     }
 
     private fun navigateToBmi() {
-        TODO("Not yet implemented")
+        val action =
+            DashboardFragmentDirections.navigationToBmi()
+        findNavController().navigate(action)
     }
 
     private fun navigateToProfile() {
@@ -112,7 +119,4 @@ class DashboardFragment : Fragment() {
         findNavController().navigate(action)
     }
 
-    override fun onDestroyView() {
-        super.onDestroyView()
-    }
 }

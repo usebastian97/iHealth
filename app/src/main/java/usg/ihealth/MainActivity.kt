@@ -1,12 +1,11 @@
 package usg.ihealth
 
 import android.os.Bundle
-import com.google.android.material.bottomnavigation.BottomNavigationView
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import usg.ihealth.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -19,17 +18,28 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val navView: BottomNavigationView = binding.navView
-
+        setupNav()
+    }
+    private fun setupNav() {
         val navController = findNavController(R.id.nav_host_fragment_activity_main)
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
-        val appBarConfiguration = AppBarConfiguration(
-            setOf(
-                R.id.navigation_dashboard, R.id.navigation_covid, R.id.navigation_tracing
-            )
-        )
-        setupActionBarWithNavController(navController, appBarConfiguration)
-        navView.setupWithNavController(navController)
+        findViewById<BottomNavigationView>(R.id.nav_view)
+            .setupWithNavController(navController)
+
+        navController.addOnDestinationChangedListener { _, destination, _ ->
+            when (destination.id) {
+                R.id.navigation_dashboard -> showBottomNav()
+                R.id.navigation_covid -> showBottomNav()
+                R.id.navigation_tracing -> showBottomNav()
+                else -> hideBottomNav()
+            }
+        }
+    }
+
+    private fun showBottomNav() {
+        binding.navView.visibility = View.VISIBLE
+    }
+
+    private fun hideBottomNav() {
+        binding.navView.visibility = View.GONE
     }
 }

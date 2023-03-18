@@ -33,7 +33,7 @@ class DashboardAdapter(
     }
 
     @SuppressLint("InflateParams")
-    override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View? {
+    override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
         // on blow line we are checking if layout inflater
         // is null, if it is null we are initializing it.
         var itemView = convertView

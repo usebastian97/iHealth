@@ -16,4 +16,11 @@
     <string name="mai_multe">Mai multe</string>
     <string name="asistent">Asistent Virtual</string>
     <string name="asistent_description">Afla rapid posibilele cauze ale simptomelor tale.</string>
+    <string name="settings_and_preferences"><![CDATA[Setari & Preferinte]]></string>
+    <string name="notificari">Notificari</string>
+    <string name="languages">Limba</string>
+    <string name="security">Securitate</string>
+    <string name="dark_mode">Tema intunecata</string>
+    <string name="help_center">Centrul de ajutor</string>
+    <string name="raport_bug">Raportare probleme</string>
 </resources>
