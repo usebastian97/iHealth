@@ -133,12 +133,8 @@ w
 G.idea/sonarlint/issuestore/0/c/0caf21483f84f87aa5c584104d3661fb61e19ade,2\0\2006c116e645ad486042f0637f1632b68721e13b
 w
 G.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35,b\f\bfb9453d49af9bc40f5f7a5f034be3c7ef8fa6bf
-_
-/app/src/main/java/usg/ihealth/ui/utils/Utils.kt,7\8\78d02040e1a2f58947aacddce70c87e01ef4c06d
 Å
 Q.idea/sonarlint/securityhotspotstore/8/2/82c0b30957de549a13867fee28d38ada1941a3ee,8\5\858fe7ad945d2359db6f26790ba47664b43171ab
-p
-@app/src/main/java/usg/ihealth/ui/fragments/bmi/ResultFragment.kt,7\4\745745eb2942e71c0fb86d009574c51fe26c59df
 Å
 Q.idea/sonarlint/securityhotspotstore/e/2/e2d75b1455273126ac5dd95aef64810fbba98b22,0\7\072c8baf02ab35d6614df5fe940e96e6a61993fb
 Å

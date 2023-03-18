@@ -32,37 +32,14 @@ object Utils {
 
     private fun childCategory(result: Float): String {
         val category: String = when {
-            result < 15 -> {
-                "very severely underweight"
-            }
-
-            result in 15.0..16.0 -> {
-                "severely underweight"
-            }
-
-            result > 16 && result <= 18.5 -> {
-                "underweight"
-            }
-
-            result > 18.5 && result <= 25 -> {
-                "normal (healthy weight)"
-            }
-
-            result > 25 && result <= 30 -> {
-                "overweight"
-            }
-
-            result > 30 && result <= 35 -> {
-                "moderately obese"
-            }
-
-            result > 35 && result <= 40 -> {
-                "severely obese"
-            }
-
-            else -> {
-                "very severely obese"
-            }
+            result < 15 -> "very severely underweight"
+            result in 15.0..16.0 -> "severely underweight"
+            result in 16.0..18.5 -> "underweight"
+            result in 18.5..25.0 -> "normal (healthy weight)"
+            result in 25.0..30.0 -> "overweight"
+            result in 30.0..35.0 -> "moderately obese"
+            result in 35.0..40.0 -> "severely obese"
+            else -> "very severely obese"
         }
         return category
     }
