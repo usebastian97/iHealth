@@ -43,8 +43,6 @@ class DashboardFragment : Fragment() {
             DashboardAdapter.DashboardSection(getString(R.string.note), R.drawable.edit_24)
         val cardBMI =
             DashboardAdapter.DashboardSection(getString(R.string.bmi), R.drawable.calculator_24)
-        val cardSupport =
-            DashboardAdapter.DashboardSection(getString(R.string.suport), R.drawable.phone_call_24)
         val cardCertificate =
             DashboardAdapter.DashboardSection(getString(R.string.covid), R.drawable.qrcode_24)
         val cardLogout = DashboardAdapter.DashboardSection(
@@ -59,7 +57,6 @@ class DashboardFragment : Fragment() {
             cardBMI,
             cardCertificate,
             cardNote,
-            cardSupport,
             cardSettings,
             cardLogout
         )
@@ -73,7 +70,6 @@ class DashboardFragment : Fragment() {
                     cardBMI.title -> navigateToBmi()
                     cardCertificate.title -> navigateToCertificate()
                     cardNote.title -> navigateToNote()
-                    cardSupport.title -> navigateToSupport()
                     cardSettings.title -> navigateToSettings()
                     cardLogout.title -> navigateToLogout()
                 }
@@ -93,12 +89,10 @@ class DashboardFragment : Fragment() {
         findNavController().navigate(action)
     }
 
-    private fun navigateToSupport() {
-        TODO("Not yet implemented")
-    }
-
     private fun navigateToNote() {
-        TODO("Not yet implemented")
+        val action =
+            DashboardFragmentDirections.navToNotes()
+        findNavController().navigate(action)
     }
 
     private fun navigateToCertificate() {
