@@ -36,7 +36,7 @@ class ResultFragment : Fragment() {
         // these changes/modifications can be made. ---/
         binding.apply {
             yourBmi.text = bmi.toString()
-            condition.text = usg.ihealth.ui.utils.Utils.checkAdult(age.toInt(), bmi)
+            condition.text = Utils.checkAdult(age.toInt(), bmi)
 
             recalculate.setOnClickListener {
                 requireActivity().onBackPressed()
