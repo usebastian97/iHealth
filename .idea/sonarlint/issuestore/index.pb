@@ -59,10 +59,6 @@ k
 ;app/src/main/java/usg/ihealth/ui/viewModels/BmiViewModel.kt,2\0\204704290428166c9cd5c1b09d41786eb17e04a2
 n
 >app/src/main/java/usg/ihealth/ui/fragments/SettingsFragment.kt,0\c\0caf21483f84f87aa5c584104d3661fb61e19ade
-<
-build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
-@
-app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
 
 Q.idea/sonarlint/securityhotspotstore/7/3/736e14112c79c95e92341369b00f03061422fb87,9\7\972a0d7cbbd012c7220d4d3bad5bc6d1524e7887
 

@@ -79,4 +79,45 @@
     <string name="adult">Adult</string>
     <string name="under_18">A BMI of under 18.5 indicates that a person has insufficient weight, so they may need to put on some weight. They should ask a doctor or dietitian for advice.</string>
     <string name="under_24">A BMI of 18.5–24.9 indicates that a person has a healthy weight for their height. By maintaining a healthy weight, they can lower their risk of developing serious health problems.</string>
+    <string name="tasks">Tasks</string>
+    <string name="notes">Notes</string>
+    <string name="bottom_bar">bottom_bar</string>
+    <string name="search_notes">Search notes</string>
+
+
+    <!-- NOTES -->
+
+    <string name="snackbarok">OK</string>
+    <string name="storage_permission_text">This App Needs access to your Storage.</string>
+    <string name="my_notes">My Notes</string>
+    <string name="date">Date</string>
+    <string name="notes_title">Notes Title</string>
+    <string name="https">https://</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="enter_notes_here">Enter Notes Here</string>
+    <string name="mynotes">My Notes</string>
+
+    <string name="noteID">noteId</string>
+    <string name="url_require">Url is Required</string>
+    <string name="url_validation">Url is not Valid</string>
+    <string name="title_require">Title is Required</string>
+    <string name="empty_note_description_warning">Notes Description Must Not Be Empty</string>
+
+    <string name="action">action</string>
+    <string name="bottom_sheet_action">bottom_sheet_action</string>
+    <string name="selected_color">selectedColor</string>
+
+    <string name="blue">Blue</string>
+    <string name="cyan">Cyan</string>
+    <string name="green">Green</string>
+    <string name="orange">Orange</string>
+    <string name="purple">Purple</string>
+    <string name="red">Red</string>
+    <string name="yellow">Yellow</string>
+    <string name="brown">Brown</string>
+    <string name="indigo">Indigo</string>
+    <string name="image">Image</string>
+    <string name="webUrl">WebUrl</string>
+    <string name="deleteNote">DeleteNote</string>
 </resources>
