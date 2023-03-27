@@ -21,5 +21,7 @@
     <color name="stepper">#1C1D34</color>
     <color name="tint">#8D8E99</color>
     <color name="green">#388E3C</color>
+    <color name="lightGreyDark">#3e434e</color>
+
 
 </resources>

@@ -23,4 +23,7 @@
     <string name="dark_mode">Tema intunecata</string>
     <string name="help_center">Centrul de ajutor</string>
     <string name="raport_bug">Raportare probleme</string>
+    <string name="tasks">Tasks</string>
+    <string name="notes">Notes</string>
+    <string name="bottom_bar">bottom_bar</string>
 </resources>

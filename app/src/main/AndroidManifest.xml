@@ -3,6 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="usg.ihealth">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -11,7 +14,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.IHealth"
-        tools:targetApi="31">
+        tools:targetApi="32">
         <activity
             android:name=".MainActivity"
             android:exported="true">
