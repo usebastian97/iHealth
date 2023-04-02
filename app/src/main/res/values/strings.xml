@@ -80,7 +80,7 @@
     <string name="under_18">A BMI of under 18.5 indicates that a person has insufficient weight, so they may need to put on some weight. They should ask a doctor or dietitian for advice.</string>
     <string name="under_24">A BMI of 18.5–24.9 indicates that a person has a healthy weight for their height. By maintaining a healthy weight, they can lower their risk of developing serious health problems.</string>
     <string name="tasks">Tasks</string>
-    <string name="notes">Notes</string>
+    <string name="notes">My Notes</string>
     <string name="bottom_bar">bottom_bar</string>
     <string name="search_notes">Search notes</string>
 
@@ -120,4 +120,6 @@
     <string name="image">Image</string>
     <string name="webUrl">WebUrl</string>
     <string name="deleteNote">DeleteNote</string>
+    <string name="fab">fab</string>
+    <string name="search">Search a note..</string>
 </resources>

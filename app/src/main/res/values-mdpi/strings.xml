@@ -8,6 +8,8 @@
     <string name="help_center">Centrul de ajutor</string>
     <string name="raport_bug">Raportare probleme</string>
     <string name="tasks">Tasks</string>
-    <string name="notes">Notes</string>
+    <string name="notes"> My Notes</string>
     <string name="bottom_bar">bottom_bar</string>
+    <string name="fab">fab</string>
+    <string name="search">Search a note..</string>
 </resources>

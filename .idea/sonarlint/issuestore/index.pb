@@ -1,6 +1,4 @@
 
-p
-@app/src/main/java/usg/ihealth/ui/fragments/CategoriesFragment.kt,9\2\9297c5f4266aa0393a3f026b4d224e41c87e6fed
 k
 ;app/src/main/java/usg/ihealth/ui/fragments/CovidFragment.kt,8\d\8d14b1a34d3397c34bfaa9ccce78ca2a8ae738a7
 m
@@ -23,12 +21,8 @@ s
 Capp/src/main/java/usg/ihealth/ui/viewModels/CertificateViewModel.kt,7\a\7af66be8917da7e7058f1ca9eb7a4237f4f0e96e
 p
 @app/src/main/java/usg/ihealth/ui/viewModels/SettingsViewModel.kt,4\8\48b3083db0f9dad83487b68553be19b29693186b
-q
-Aapp/src/main/java/usg/ihealth/ui/viewModels/DashboardViewModel.kt,8\2\82c0b30957de549a13867fee28d38ada1941a3ee
 w
 G.idea/sonarlint/issuestore/9/7/97ca4ec3f47a37057e0c39a577746c796351e806,7\3\736e14112c79c95e92341369b00f03061422fb87
-w
-G.idea/sonarlint/issuestore/9/2/9297c5f4266aa0393a3f026b4d224e41c87e6fed,0\5\05c6257ffcc4a48c89b79d547ae121b3dabe2775
 
 Q.idea/sonarlint/securityhotspotstore/e/9/e9fed73bd22cbf75afd09e23cf86fd53305e574e,e\2\e2d75b1455273126ac5dd95aef64810fbba98b22
 w
@@ -70,8 +64,6 @@ G.idea/sonarlint/issuestore/5/2/52114fdaa426e9b83a3c5df4e11c4f0ebbcd814b,6\c\6c
 
 Q.idea/sonarlint/securityhotspotstore/3/2/32813322c99a6c8a141ab2dc12bc10af3425f1b4,2\0\20448b8757755fd94ac2232693630f35b60a481b
 w
-G.idea/sonarlint/issuestore/8/2/82c0b30957de549a13867fee28d38ada1941a3ee,7\8\78e58e8686c18caf6a4bf46832c70fa99bc731bb
-w
 G.idea/sonarlint/issuestore/9/e/9e08934d811afe28fbc77aaa3c0d747b94348db9,0\1\0105d5a774c76db833eb83cbebde54a8abef1599
 
 Q.idea/sonarlint/securityhotspotstore/8/a/8a58385f0349d98e195b98f9bdbbcc3d0b8d2b26,0\d\0ded4958e085523edf69a43ad54a2ae29b48a2f0
@@ -85,8 +77,6 @@ w
 G.idea/sonarlint/issuestore/d/6/d6e00722bde85cce7e547ac859441fb8083143cd,5\a\5aec92f32e3f2ff25b2bf3d53a8cd000a2e65e40
 
 Q.idea/sonarlint/securityhotspotstore/d/d/dd3ed059624f4cf27398b5980bac4de9cb1ab49c,c\e\ce1b21f5b5b08d56305c81d44fe5163ffc45c7b8
-
-Q.idea/sonarlint/securityhotspotstore/f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164,9\b\9b9af03329b517cdd460b1ee115f2bb0ec341883
 
 Q.idea/sonarlint/securityhotspotstore/4/8/48b3083db0f9dad83487b68553be19b29693186b,3\9\391c3e94e3252fa44cc0811302754bc92560ac95
 
@@ -107,8 +97,6 @@ w
 G.idea/sonarlint/issuestore/5/6/56f5e3fb8024447ccf241c75778e4641215e638a,3\e\3e84afd94b5f941c3f957f5601663695f2521363
 w
 G.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0,f\0\f0e0f9cec86fe4b939ae22be5264c758801eb28f
-w
-G.idea/sonarlint/issuestore/f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164,3\1\31073cf3a12b082ef2fe0f9403916a4db3811c89
 w
 G.idea/sonarlint/issuestore/e/2/e2d75b1455273126ac5dd95aef64810fbba98b22,b\3\b3007e27ae0ae92d83873c3bb4905cb4d4520b22
 
@@ -131,8 +119,6 @@ w
 G.idea/sonarlint/issuestore/0/c/0caf21483f84f87aa5c584104d3661fb61e19ade,2\0\2006c116e645ad486042f0637f1632b68721e13b
 w
 G.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35,b\f\bfb9453d49af9bc40f5f7a5f034be3c7ef8fa6bf
-
-Q.idea/sonarlint/securityhotspotstore/8/2/82c0b30957de549a13867fee28d38ada1941a3ee,8\5\858fe7ad945d2359db6f26790ba47664b43171ab
 
 Q.idea/sonarlint/securityhotspotstore/e/2/e2d75b1455273126ac5dd95aef64810fbba98b22,0\7\072c8baf02ab35d6614df5fe940e96e6a61993fb
 
@@ -221,10 +207,6 @@ Q.idea/sonarlint/securityhotspotstore/0/d/0ded4958e085523edf69a43ad54a2ae29b48a2
 Q.idea/sonarlint/securityhotspotstore/8/3/8363137acd658af1ae43ae51d794bf293d58aa7c,2\e\2e1a3e005400768c7a2a8318102767a731476f43
 w
 G.idea/sonarlint/issuestore/9/9/996c0810cb774ab33735d20ac4407913266a3ef2,0\c\0c54cd612458b5da9318f4a0ac91e1c8742b9bf9
-
-Q.idea/sonarlint/securityhotspotstore/3/1/31073cf3a12b082ef2fe0f9403916a4db3811c89,3\6\369a509158e87272e795636ab433967b2072f401
-
-Q.idea/sonarlint/securityhotspotstore/9/b/9b9af03329b517cdd460b1ee115f2bb0ec341883,b\b\bb08a4d420fe513e55839b8e1065bca5af7d48c1
 w
 G.idea/sonarlint/issuestore/4/9/49800f58f69ce0c7a8c2f888ab5e978197756a86,3\5\35966e482edc5c6208638d32f6b2f4bf2850ff70
 
@@ -256,8 +238,6 @@ Q.idea/sonarlint/securityhotspotstore/0/7/072c8baf02ab35d6614df5fe940e96e6a61993
 w
 G.idea/sonarlint/issuestore/3/0/3090fa5c129992ac91641f68749f3415ec9afd66,8\b\8bb67d72b3d39301fb452a04412530c36f4de827
 w
-G.idea/sonarlint/issuestore/9/b/9b9af03329b517cdd460b1ee115f2bb0ec341883,4\5\45ff80189529414d0a5c8e69e1bba5cd44bf8e47
-w
 G.idea/sonarlint/issuestore/1/5/15ff8ba7ba8aa142a4d5588fa03db65ddf2b4f45,e\a\ea29c0aa8c5689373f9f8db034062fcfabacd2a0
 w
 G.idea/sonarlint/issuestore/1/5/1556de35cd259e2bc999efc63b2b601dac5a77a4,5\a\5ab0bc54ce3b0a1847511f4287fd49c1070fe997
@@ -267,8 +247,6 @@ w
 G.idea/sonarlint/issuestore/1/e/1e2f52f5dad5bf431cfe292fddc989a0c26be6d7,d\c\dc6d9fd246fabdd1d287a93743bb8bfd9f205210
 w
 G.idea/sonarlint/issuestore/b/b/bbf202272a96de5cd6b6828ffdc55fb3ce45289c,8\4\84e95bd0ea795e5307464eb72e7bd95d9f673c00
-w
-G.idea/sonarlint/issuestore/3/1/31073cf3a12b082ef2fe0f9403916a4db3811c89,e\4\e4f81abd3815cee45769fdb6b471f1a5f7dca867
 w
 G.idea/sonarlint/issuestore/6/f/6f55714b7b5f414b811cd897ff5ece1c04abadd0,a\8\a8fb6d7f952e6623e80de9580a7c768c78aeab16
 
@@ -331,27 +309,15 @@ m
 =app/src/main/java/usg/ihealth/ui/fragments/bmi/BmiFragment.kt,f\3\f32074318c667fef59eea5255ef0d0498f3e6b19
 P
  app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
-o
-?app/src/main/java/usg/ihealth/ui/fragments/DashboardFragment.kt,e\b\ebbf071a57cdf59efb3e518fa71aa372fa639c5f
 _
 /app/src/main/java/usg/ihealth/ui/utils/Utils.kt,7\8\78d02040e1a2f58947aacddce70c87e01ef4c06d
-p
-@app/src/main/java/usg/ihealth/ui/fragments/notes/BaseFragment.kt,3\a\3a989cd118232ba0ee90ec9fa95e0054e8b81388
-n
->app/src/main/java/usg/ihealth/ui/fragments/notes/MainModule.kt,a\4\a4494e91950cd6238a2356619e596f9be602b5c6
-o
-?app/src/main/java/usg/ihealth/ui/fragments/notes/dao/NoteDao.kt,d\a\daf4c15e13555257024745083a420a49a66ad473
-u
-Eapp/src/main/java/usg/ihealth/ui/fragments/notes/entity/NoteEntity.kt,0\4\041de9f66812056591d630f8f2039636cd943067
-w
-Gapp/src/main/java/usg/ihealth/ui/fragments/notes/repo/NoteRepository.kt,f\e\fed6cd32542c2dca3e2f297aed2d872fe44c2e16
-q
-Aapp/src/main/java/usg/ihealth/ui/fragments/notes/ViewExtension.kt,8\7\87020bed8039e093d98e44abc3bc96e6e21e912b
 m
 =app/src/main/java/usg/ihealth/ui/adapters/DashboardAdapter.kt,d\d\dd3ed059624f4cf27398b5980bac4de9cb1ab49c
 n
 >app/src/main/java/usg/ihealth/ui/adapters/CategoriesAdapter.kt,2\b\2b637d82ce90f7a50988c50900dddd69b9701251
-z
-Japp/src/main/java/usg/ihealth/ui/fragments/notes/database/NotesDataBase.kt,7\6\76c8126c03b87ca72570380216d8c274c7a88766
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
+@
+app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
+q
+Aapp/src/main/java/usg/ihealth/ui/viewModels/DashboardViewModel.kt,8\2\82c0b30957de549a13867fee28d38ada1941a3ee
