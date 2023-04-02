@@ -112,9 +112,12 @@
     <fragment
         android:id="@+id/noteFragment"
         android:name="usg.ihealth.ui.fragments.notes.NoteFragment"
+        android:label="@string/note"
         tools:layout="@layout/fragment_note">
 
     </fragment>
+
+
 
 
 </navigation>
