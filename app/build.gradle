@@ -26,13 +26,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
-    kotlinOptions {
-        jvmTarget = '1.8'
-    }
     buildFeatures {
         dataBinding true
         viewBinding true
@@ -44,6 +37,7 @@ android {
 
 dependencies {
 
+    implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation 'com.intuit.sdp:sdp-android:1.0.6'
 
     // Rounded Image View
@@ -53,10 +47,12 @@ dependencies {
     implementation 'pub.devrel:easypermissions:3.0.0'
     //hilt
     implementation "com.google.dagger:hilt-android:2.44"
-    annotationProcessor("androidx.room:room-compiler:2.5.1")
+    kapt("androidx.room:room-compiler:2.5.1")
     implementation "androidx.room:room-ktx:2.5.1"
     kapt "com.google.dagger:hilt-compiler:2.44"
     testImplementation("androidx.room:room-testing:2.5.1")
+
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
 
     implementation 'androidx.core:core-ktx:1.9.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
