@@ -115,6 +115,20 @@
         android:label="@string/note"
         tools:layout="@layout/fragment_note">
 
+        <action
+            android:id="@+id/action_noteFragment_to_createNoteFragment"
+            app:destination="@id/createNoteFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/createNoteFragment"
+        android:name="usg.ihealth.ui.fragments.notes.CreateNoteFragment"
+        tools:layout="@layout/fragment_create_note">
+
+        <action
+            android:id="@+id/action_createNoteFragment_toNoteFragment"
+            app:destination="@id/noteFragment" />
+
     </fragment>
 
 

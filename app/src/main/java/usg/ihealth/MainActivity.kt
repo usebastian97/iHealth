@@ -3,10 +3,12 @@ package usg.ihealth
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import usg.ihealth.databinding.ActivityMainBinding
+import usg.ihealth.ui.fragments.notes.NoteFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -41,5 +43,13 @@ class MainActivity : AppCompatActivity() {
 
     private fun hideBottomNav() {
         binding.navView.visibility = View.GONE
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        val fragments = supportFragmentManager.fragments
+        if (fragments.size == 0) {
+            finish()
+        }
     }
 }
