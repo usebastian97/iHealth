@@ -7,13 +7,23 @@
         android:title="@string/title_home" />
 
     <item
-        android:id="@+id/navigation_covid"
-        android:icon="@drawable/astrazeneca_24"
-        android:title="@string/covid" />
-
-    <item
         android:id="@+id/navigation_tracing"
         android:icon="@drawable/stats_24"
         android:title="@string/tracing" />
+
+    <item
+        android:id="@+id/navigation_bmi"
+        android:icon="@drawable/calculator_24"
+        android:title="@string/bmi"/>
+
+    <item
+        android:id="@+id/navigation_notes"
+        android:icon="@drawable/edit_24"
+        android:title="@string/note"/>
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/settings_24"
+        android:title="@string/setari"/>
 
 </menu>

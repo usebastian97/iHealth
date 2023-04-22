@@ -7,13 +7,13 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.SearchView
 import androidx.fragment.app.Fragment
-import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import kotlinx.coroutines.launch
 import usg.ihealth.R
 import usg.ihealth.databinding.FragmentNoteBinding
 import usg.ihealth.ui.adapters.NotesAdapter
 import usg.ihealth.ui.fragments.notes.database.NotesDatabase
+import usg.ihealth.ui.utils.NoteBottomSheetFragment
 import java.util.Locale
 
 class NoteFragment : BaseFragment() {

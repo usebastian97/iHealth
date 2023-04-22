@@ -5,12 +5,11 @@
     android:id="@+id/mobile_navigation"
     app:startDestination="@+id/navigation_dashboard">
 
-    <fragment
-        android:id="@+id/navigation_covid"
-        android:name="usg.ihealth.ui.fragments.CovidFragment"
-        android:label="@string/covid"
-        tools:layout="@layout/fragment_covid" />
 
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="usg.ihealth.ui.fragments.SettingsFragment"
+        tools:layout="@layout/fragment_settings" />
     <fragment
         android:id="@+id/navigation_tracing"
         android:name="usg.ihealth.ui.fragments.TracingFragment"
@@ -18,72 +17,8 @@
         tools:layout="@layout/fragment_tracing" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="usg.ihealth.ui.fragments.DashboardFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_dashboard">
-
-        <action
-            android:id="@+id/navigation_dashboard_to_profile"
-            app:destination="@id/profileFragment"
-            app:popUpToInclusive="true">
-
-        </action>
-
-        <action
-            android:id="@+id/navigation_dashboard_to_settings"
-            app:destination="@id/settingsFragment"
-            app:popUpTo="@id/navigation_dashboard">
-
-        </action>
-
-        <action
-            android:id="@+id/nav_to_certificate"
-            app:destination="@id/certificateFragment">
-
-        </action>
-
-        <action
-            android:id="@+id/navigation_to_bmi"
-            app:destination="@+id/bmiFragment"
-            app:popUpToInclusive="true">
-
-        </action>
-
-        <action
-            android:id="@+id/nav_to_notes"
-            app:destination="@+id/noteFragment" />
-
-    </fragment>
-
-    <fragment
-        android:id="@+id/categoriesFragment"
-        android:name="usg.ihealth.ui.fragments.CategoriesFragment"
-        android:label="Categorii"
-        tools:layout="@layout/fragment_categories" />
-
-    <fragment
-        android:id="@+id/profileFragment"
-        android:name="usg.ihealth.ui.fragments.ProfileFragment"
-        android:label="Profile"
-        tools:layout="@layout/fragment_profile" />
-
-    <fragment
-        android:id="@+id/settingsFragment"
-        android:name="usg.ihealth.ui.fragments.SettingsFragment"
-        android:label="Setari"
-        tools:layout="@layout/fragment_settings" />
-    <fragment
-        android:id="@+id/certificateFragment"
-        android:name="usg.ihealth.ui.fragments.CertificateFragment"
-        android:label="Certificat COVID-19"
-        tools:layout="@layout/fragment_certificate" />
-
-    <fragment
-        android:id="@+id/bmiFragment"
+        android:id="@+id/navigation_bmi"
         android:name="usg.ihealth.ui.fragments.bmi.BmiFragment"
-        android:label="@string/bmi"
-        android:fitsSystemWindows="true"
         tools:layout="@layout/fragment_bmi">
 
         <action
@@ -93,8 +28,43 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_notes"
+        android:name="usg.ihealth.ui.fragments.notes.NoteFragment"
+        tools:layout="@layout/fragment_note">
+
+        <action
+            android:id="@+id/action_noteFragment_to_createNoteFragment"
+            app:destination="@id/createNoteFragment" />
 
     </fragment>
+
+    <fragment
+        android:id="@+id/createNoteFragment"
+        android:name="usg.ihealth.ui.fragments.notes.CreateNoteFragment"
+        tools:layout="@layout/fragment_create_note">
+
+        <action
+            android:id="@+id/action_createNoteFragment_toNoteFragment"
+            app:destination="@id/navigation_notes" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="usg.ihealth.ui.fragments.DashboardFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_dashboard">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="usg.ihealth.ui.fragments.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
 
     <fragment
         android:id="@+id/resultFragment"
@@ -107,28 +77,6 @@
         <argument
             android:name="age"
             app:argType="string" />
-    </fragment>
-
-    <fragment
-        android:id="@+id/noteFragment"
-        android:name="usg.ihealth.ui.fragments.notes.NoteFragment"
-        android:label="@string/note"
-        tools:layout="@layout/fragment_note">
-
-        <action
-            android:id="@+id/action_noteFragment_to_createNoteFragment"
-            app:destination="@id/createNoteFragment" />
-    </fragment>
-
-    <fragment
-        android:id="@+id/createNoteFragment"
-        android:name="usg.ihealth.ui.fragments.notes.CreateNoteFragment"
-        tools:layout="@layout/fragment_create_note">
-
-        <action
-            android:id="@+id/action_createNoteFragment_toNoteFragment"
-            app:destination="@id/noteFragment" />
-
     </fragment>
 
 

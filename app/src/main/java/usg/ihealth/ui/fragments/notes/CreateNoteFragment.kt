@@ -173,7 +173,6 @@ class CreateNoteFragment : BaseFragment(), EasyPermissions.PermissionCallbacks,
             startActivity(intent)
         }
     }
-
     private fun updateNote() {
         launch {
             context?.let {
@@ -198,8 +197,6 @@ class CreateNoteFragment : BaseFragment(), EasyPermissions.PermissionCallbacks,
             }
         }
     }
-
-
     private fun saveNote() {
 
         if (binding.etNoteTitle.text.isNullOrEmpty()) {
@@ -234,9 +231,7 @@ class CreateNoteFragment : BaseFragment(), EasyPermissions.PermissionCallbacks,
             }
         }
     }
-
     private fun deleteNote() {
-
         launch {
             context?.let {
                 NotesDatabase.getDatabase(it).noteDao().deleteSpecificNote(noteId)
@@ -244,7 +239,6 @@ class CreateNoteFragment : BaseFragment(), EasyPermissions.PermissionCallbacks,
             }
         }
     }
-
     private fun checkWebUrl() {
         if (Patterns.WEB_URL.matcher(binding.etWebLink.text.toString()).matches()) {
             binding.layoutWebUrl.visibility = View.GONE

@@ -30,7 +30,9 @@ class MainActivity : AppCompatActivity() {
         navController.addOnDestinationChangedListener { _, destination, _ ->
             when (destination.id) {
                 R.id.navigation_dashboard -> showBottomNav()
-                R.id.navigation_covid -> showBottomNav()
+                R.id.navigation_bmi -> showBottomNav()
+                R.id.navigation_notes -> showBottomNav()
+                R.id.navigation_settings -> showBottomNav()
                 R.id.navigation_tracing -> showBottomNav()
                 else -> hideBottomNav()
             }

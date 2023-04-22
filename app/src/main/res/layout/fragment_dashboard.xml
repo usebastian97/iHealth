@@ -8,18 +8,4 @@
     android:background="@color/background"
     tools:context=".ui.fragments.DashboardFragment">
 
-    <GridView
-        android:id="@+id/dashboard_gridView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:numColumns="2"
-        android:verticalSpacing="9dp"
-        android:layout_margin="5dp"
-        android:horizontalSpacing="9dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-    </GridView>
 </androidx.constraintlayout.widget.ConstraintLayout>
